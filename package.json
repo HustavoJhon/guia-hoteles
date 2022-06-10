@@ -3,5 +3,23 @@
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
-  }
+  },
+  "name": "guia-hoteles",
+  "description": "practipa con bootstrap",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HustavoJhon/guia-hoteles.git"
+  },
+  "author": "Hustavo Jhon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HustavoJhon/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/HustavoJhon/guia-hoteles#readme"
 }
