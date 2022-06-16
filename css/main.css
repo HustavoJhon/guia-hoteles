@@ -1,13 +1,5 @@
-.jumbotron{
-    background-color: yellow;
-    color: black
-}
 .footer{
     padding: 10px 10px 0 10px;
     background-color: yellow;
     margin-bottom: 0px;
-}
-.btn{
-    color: green;
-    background-color: blue;
 }
