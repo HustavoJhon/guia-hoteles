@@ -7,18 +7,45 @@
 
         <!-- Bootstrap CSS -->
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css">
 
         <title>Guia Hoteles</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body> 
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="#" class="navbar-brand">Hoteles</a>
 
-        <div class="mt-4 p-5 bg-primary text-white rounded">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Precios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Terminos y Condiciones</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="jumbotron mt-4 p-5 bg-primary text-white rounded">
             <h1>Hoteles</h1>
         </div>
+
+        
         <div class="container">
+
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                </ol>
+            </nav>
+
             <div class="d-flex">
                 <div class="col-sm-4">
                     <p>
