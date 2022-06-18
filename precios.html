@@ -9,6 +9,8 @@
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- CSS -->
         <link rel="stylesheet" href="css/main.css">
+        <!-- OPEN-ICONIC -->
+        <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
         <title>Guia Hoteles</title>
 
@@ -24,82 +26,100 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
-                    <li class="nav-item"><a href="precios.html" class="nav-link">Precios</a></li>
+                    <li class="nav-item "><a href="about.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item active"><a href="precios.html" class="nav-link">Precios</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Terminos y Condiciones</a></li>
-                    <li class="nav-item active"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
                 </ul>
             </div>
         </nav>
 
         <div class="jumbotron mt-4 p-5 bg-primary text-white rounded">
-            <h1>Contactos</h1>
+            <h1>Precios</h1>
         </div>
         <div class="container">
 
-            <!-- BREADCRUMB -->
             <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contactos</li>
+                    <li class="breadcrumb-item active" aria-current="page">Precios</li>
                 </ol>
             </nav>
 
-            <!-- FORMULARIO -->
-            <h1>Dejame tu comentario</h1>
-            <form action="">
-                <!-- nombre -->
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-                    </div>
-                    <!-- apellido -->
-                    <div class="form-group col-sm-6">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-                    </div>
-                </div>
-                <!-- email -->
-                <div class="form-group">
-                    <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Ingrese su correo">
-                </div>
-                <!-- domicilio -->
-                <div class="form-row">
-                    <div class="form-group col-sm-9">
-                        <label for="domicilio">Domicilio</label>
-                        <input type="domicilio" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
-                    </div>
-                    <!-- provincia -->
-                    <div class="form-group col-sm-3">
-                        <label for="provincia">Provincia</label>
-                        <select id="provincia" class="form-control">
-                            <option selected>Capital Federal</option>
-                            <option value="">Buenos Aires</option>
-                            <option value="">Cordoba</option>
-                            <option value="">Santa Fe</option>
-                            <option value="">Mendoza</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="comentario">Comentario</label>
-                    <textarea id="comentario" class="form-control" rows="10"></textarea>
-                </div>
-                <!-- checkbox -->
-                <div class="form-group">
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
-                    </div>
-                </div>
-                <!-- btn -->
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-
         </div>
             <hr>
+
+        
+        <!-- tabla -->
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <th>Calidad</th>
+                    <th>Pinaar</th>
+                    <th>Mar del Plata</th>
+                    <th>San clemente</th>
+                    <th>Santa Teresita</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$100</td>
+                        <td>$120</td>
+                        <td>$150</td>
+                        <td>$180</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$200</td>
+                        <td>$220</td>
+                        <td>$250</td>
+                        <td>$280</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$300</td>
+                        <td>$320</td>
+                        <td>$350</td>
+                        <td>$180</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$400</td>
+                        <td>$420</td>
+                        <td>$450</td>
+                        <td>$480</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                            <span class="oi oi-star"></span>
+                        </td>
+                        <td>$500</td>
+                        <td>$520</td>
+                        <td>$550</td>
+                        <td>$580</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 
         <footer>
             <div class="row">
